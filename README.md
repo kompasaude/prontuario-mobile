@@ -48,7 +48,7 @@ O código fonte da API está disponível nesse repositório, e a hospedamos no H
 
 > A API limita 100 requisições por IP a cada 15 minutos. Se você encontrar problemas, tente clonar o projeto e rodar no seu próprio computador. É só rodar `npm install`, seguido de `npm start`.
 
-URL da API: `TODO`
+URL da API: `https://assina-prontuario.herokuapp.com`
 
 `GET /`: retorna o status do servidor (p. ex: `{ok: true}`) 
 
