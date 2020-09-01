@@ -88,8 +88,6 @@ const createApp = dbFilename => {
       if (err)
         return res.status(500).json(err);
 
-      console.log(doc.queixa);
-
       return res.json({
         ...doc,
         queixa: QUEIXAS.find(({id}) => String(id) === String(doc.queixa)),
