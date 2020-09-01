@@ -17,12 +17,13 @@ A tarefa de hoje é implementar 3 telas que interagem com uma API Rest.
 
 > Nós **fortemente** preferimos que você use React, mas caso não seja possível, considere utilizar frameworks semelhantes como Vue ou Angular.
 
-1. Listagem (Vazia)
+#### Listagem (Vazia)
+
 ![Listagem (Vazia)](/images/prontuario-vazio.png?raw=true "Listagem (Vazia)")
 
 Ao abrir o sistema, o usuário pode pressionar o botão "Adicionar novo prontuário" para ir para a próxima tela.
 
-2. Cadastro de Prontuário
+#### Cadastro de Prontuário
 
 ![Cadastro de Prontuário](/images/prontuario-anamnese.png?raw=true "Cadastro de Prontuário")
 
@@ -35,7 +36,7 @@ Os itens selecionados ficam visíveis próximo ao campo, e o usuário pode clica
 
 Ao clicar em "Salvar", o sistema deve enviar uma requisição para [/prontuario](prontuario), salvar o retorno, e retornar para a tela de listagem.
 
-3. Listagem (Preenchida)
+#### Listagem (Preenchida)
 
 ![Listagem (Preenchida)](/images/prontuario-preenchido.png?raw=true "Listagem (Preenchida)")
 
@@ -123,7 +124,7 @@ Exemplo de resposta:
 ### Enviando o seu projeto
 
 1. Faça o upload do código para o Github
-2. Envie o link do repositório para feliciano@assinasaude.com.br, com instruções de como rodar o projeto e quaisquer outras informações que você achar importante mencionar. Lembre-se
+2. Envie o link do repositório para feliciano@assinasaude.com.br, com instruções de como rodar o projeto e quaisquer outras informações que você achar importante mencionar.
 Por exemplo:
 
 > Para rodar o projeto, executar npm install e npm start. Não pude concluir a parte X, mas com mais tempo eu a implementaria usando a biblioteca Y.
@@ -158,6 +159,6 @@ Você só precisa se preocupar com esses critérios se tiver tempo extra, mas vo
 
 6. **Sua criatividade**: Sinta-se encorajado para adicionar quaisquer outras features que você quiser, contanto que você as mencione quando enviar seu projeto (para que possamos procurar por elas!).
 
-### Problemas?
+### Problemas ou dúvidas?
 
 [Abra uma nova issue](/issues)!
