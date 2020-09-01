@@ -80,7 +80,7 @@ const createApp = dbFilename => {
     const prontuario = {
       historico,
       queixa,
-      doencas: doencas || [],
+      doencas,
       created_at: new Date().toISOString()
     };
 
@@ -88,10 +88,12 @@ const createApp = dbFilename => {
       if (err)
         return res.status(500).json(err);
 
+      console.log(doc.queixa);
+
       return res.json({
         ...doc,
-        queixa: QUEIXAS.find(({id}) => id === doc.queixa),
-        doencas: doencas.map(d => DOENCAS.find(({id}) => id === d))
+        queixa: QUEIXAS.find(({id}) => String(id) === String(doc.queixa)),
+        doencas: doencas.map(d => DOENCAS.find(({id}) => String(id) === String(d)))
       });
     });
   });
