@@ -11,7 +11,7 @@ Para o seu teste, escolhemos essa tarefa pois esse é um típico desafio que voc
 
 Nós sinceramente esperamos que você se divirta com esse desafio e talvez até aprenda algo novo! Happy coding!
 
-### A tarefa
+### Seu desafio
 
 A tarefa de hoje é implementar 3 telas que interagem com uma API Rest.
 
@@ -29,12 +29,12 @@ Ao abrir o sistema, o usuário pode pressionar o botão "Adicionar novo prontuá
 
 Na tela de cadastro, o usuário tem 3 campos para preencher, de acordo com as seguintes especificações:
 
-- Queixa principal: o usuário seleciona **apenas um** de uma listagem de queixas disponíveis na API através do endpoint [/queixas](queixas). Campo obrigatório!
-- Doenças Adulto: o usuário seleciona **um ou mais** de uma listagem de queixas disponíveis na API através do endpoint [/doencas](doencas).
+- Queixa principal: o usuário seleciona **apenas um** de uma listagem de queixas disponíveis na API através do endpoint [/queixas](#queixas). Campo obrigatório!
+- Doenças Adulto: o usuário seleciona **um ou mais** de uma listagem de queixas disponíveis na API através do endpoint [/doencas](#doencas).
 Os itens selecionados ficam visíveis próximo ao campo, e o usuário pode clicar neles para removê-los. Campo opcional!
 - Histórico da Moléstia: o usuário digita um texto que deve ter no mínimo 10 caracteres e no máximo 1000. Campo obrigatório!
 
-Ao clicar em "Salvar", o sistema deve enviar uma requisição para [/prontuario](prontuario), salvar o retorno, e retornar para a tela de listagem.
+Ao clicar em "Salvar", o sistema deve enviar uma requisição para [/prontuario](#prontuario), salvar o retorno, e retornar para a tela de listagem.
 
 #### Listagem (Preenchida)
 
@@ -50,7 +50,6 @@ O código fonte da API está disponível nesse repositório, e a hospedamos no H
 
 URL da API: `TODO`
 
-##### /
 `GET /`: retorna o status do servidor (p. ex: `{ok: true}`) 
 
 ##### queixas
