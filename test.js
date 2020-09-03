@@ -92,5 +92,20 @@ describe("Endpoints", () => {
         })
         .end(done);
     });
+
+    it("should accept last 'doenca'", done => {
+      request(app)
+        .post("/prontuario")
+        .send({
+          historico: "forte dor de cabeça",
+          queixa: QUEIXAS[0].id,
+          doencas: [DOENCAS[DOENCAS.length - 1].id]
+        })
+        .expect(res => {
+          expect(res.status).to.equal(200);
+          expect(res.body.doencas).to.eql([DOENCAS[DOENCAS.length - 1]]);
+        })
+        .end(done);
+    });
   });
 });

@@ -55,7 +55,7 @@ const createApp = dbFilename => {
     else if ((new Set(doencas)).size !== doencas.length)
       errors.doencas = "Esse campo não pode conter valores duplicados.";
     else {
-      const invalid = doencas.find(d => !DOENCAS[d]);
+      const invalid = doencas.find(d => !DOENCAS.find(_d => String(_d.id) === String(d)));
       if (invalid)
         errors.doencas = `
           O valor '${invalid}' é inválido.
