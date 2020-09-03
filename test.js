@@ -78,5 +78,19 @@ describe("Endpoints", () => {
         })
         .end(done);
     });
+
+    it("should accept last 'queixa'", done => {
+      request(app)
+        .post("/prontuario")
+        .send({
+          historico: "forte dor de cabeça",
+          queixa: QUEIXAS[QUEIXAS.length - 1].id
+        })
+        .expect(res => {
+          expect(res.status).to.equal(200);
+          expect(res.body.queixa).to.eql(QUEIXAS[QUEIXAS.length - 1]);
+        })
+        .end(done);
+    });
   });
 });

@@ -44,7 +44,7 @@ const createApp = dbFilename => {
 
     if (!queixa)
       errors.queixa = "Esse campo é obrigatório.";
-    else if (!QUEIXAS[queixa])
+    else if (!QUEIXAS.find(q => String(q.id) === String(queixa)))
       errors.queixa = `
         Esse campo deve ser um inteiro correspondendo ao ID de uma das queixas válidas.
         Utilize o endpoint /queixas para receber a lista completa.
