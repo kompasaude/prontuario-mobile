@@ -1,5 +1,3 @@
-> O prazo para envio está encerrado. Agradecemos a todos que participaram!
-
 # Teste Front-End AssinaSaúde
 
 Bem-vindo ao teste técnico para se juntar ao time incrível de front-ends da AssinaSaúde!
