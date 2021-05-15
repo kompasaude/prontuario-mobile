@@ -1,6 +1,6 @@
-# Teste Front-End AssinaSaúde
+# Teste Mobile AssinaSaúde
 
-Bem-vindo ao teste técnico para se juntar ao time incrível de front-ends da AssinaSaúde!
+Bem-vindo ao teste técnico para se juntar ao time incrível de devs mobile da AssinaSaúde!
 
 O desafio de hoje é construir um prontuário eletrônico de saúde simplificado.
 
@@ -15,7 +15,7 @@ Nós sinceramente esperamos que você se divirta com esse desafio e talvez até 
 
 A tarefa de hoje é implementar 3 telas que interagem com uma API Rest.
 
-> Nós **fortemente** preferimos que você use React, mas caso não seja possível, considere utilizar frameworks semelhantes como Vue ou Angular.
+> Fique à vontade para implementar em React Native ou Flutter.
 
 #### Listagem (Vazia)
 
@@ -137,7 +137,7 @@ Não vamos testar cada caso especial, mas casos que podem ser razoavelmente espe
 
 2. **Design / Usabilidade**: O design de cada solução deve ser no mínimo funcional e obedecer aos padrões estabelecidos nas screenshots acima.
 
-3. **Performance**: As suas soluções não devem travar o navegador por nenhum período de tempo sob situações de uso normal.
+3. **Performance**: As suas soluções não devem travar o aparelho por nenhum período de tempo sob situações de uso normal.
 
 4. **Qualidade do código**: O seu código deve respeitar algumas regras básicas de qualidade como de-duplicação e deve evitar o máximo de mau cheiros de código possível.
 Sua submissão também se destaca se você utilizar uma ferramenta como o ESLint para manter o estilo consistente em todos os arquivos.
@@ -146,17 +146,15 @@ Sua submissão também se destaca se você utilizar uma ferramenta como o ESLint
 
 Você só precisa se preocupar com esses critérios se tiver tempo extra, mas você definitivamente vai se destacar!
 
-1. **Responsividade**: Vamos testar prioritariamente em dispositivos móveis, mas se você garantir que o seu layout fique agradável no desktop, mais pontos pra você!
+1. **Testes Unitários**: [Código sem testes é código quebrado por design](https://jacobian.org/2009/apr/15/django-apps-with-buildout/). Se você escrever testes para os casos mais básicos de uso, com certeza terá bastante destaque!
 
-2. **Testes Unitários**: [Código sem testes é código quebrado por design](https://jacobian.org/2009/apr/15/django-apps-with-buildout/). Se você escrever testes para os casos mais básicos de uso, com certeza terá bastante destaque!
+2. **Histórico de commits**: Não estamos preocupados com o horário de cada commit, mas gostaríamos que seus commits seguissem uma ordem lógica e tivessem mensagens descritivas de cada alteração que ocorreu.
 
-3. **Histórico de commits**: Não estamos preocupados com o horário de cada commit, mas gostaríamos que seus commits seguissem uma ordem lógica e tivessem mensagens descritivas de cada alteração que ocorreu.
+3. **Tratamento de erros**: Tratar o que acontece quando a API está indisponível ou a internet do usuário caiu é parte importantíssima para usabilidade. Pontos extras se exibir uma mensagem amigável quando ocorrerem erros na comunicação com a API.
 
-4. **Tratamento de erros**: Tratar o que acontece quando a API está indisponível ou a internet do usuário caiu é parte importantíssima para usabilidade. Pontos extras se exibir uma mensagem amigável quando ocorrerem erros na comunicação com a API.
+4. **Animações**: Adoramos utilizar animações para tornar a experiência mais agradável e responsiva. Se você utilizar transações de tela e microanimações, vamos mostrar seu projeto pra todo mundo no escritório.
 
-5. **Animações**: Adoramos utilizar animações para tornar a experiência mais agradável e responsiva. Se você utilizar transações de tela e microanimações, vamos mostrar seu projeto pra todo mundo no escritório.
-
-6. **Sua criatividade**: Sinta-se encorajado para adicionar quaisquer outras features que você quiser, contanto que você as mencione quando enviar seu projeto (para que possamos procurar por elas!).
+5. **Sua criatividade**: Sinta-se encorajado para adicionar quaisquer outras features que você quiser, contanto que você as mencione quando enviar seu projeto (para que possamos procurar por elas!).
 
 ### Problemas ou dúvidas?
 
