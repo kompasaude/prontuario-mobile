@@ -13,9 +13,7 @@ Nós sinceramente esperamos que você se divirta com esse desafio e talvez até 
 
 ### Seu desafio
 
-A tarefa de hoje é implementar 3 telas que interagem com uma API Rest.
-
-> Fique à vontade para implementar em React Native ou Flutter.
+A tarefa de hoje é implementar em **React Native** 3 telas que interagem com uma API Rest.
 
 #### Listagem (Vazia)
 
