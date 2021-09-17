@@ -1,6 +1,6 @@
-# Teste Mobile AssinaSaúde
+# Teste Mobile Kompa Saúde
 
-Bem-vindo ao teste técnico para se juntar ao time incrível de devs mobile da AssinaSaúde!
+Bem-vindo ao teste técnico para se juntar ao time incrível de devs mobile da Kompa Saúde!
 
 O desafio de hoje é construir um prontuário eletrônico de saúde simplificado.
 
